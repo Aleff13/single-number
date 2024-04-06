@@ -1,0 +1,11 @@
+{
+  "name": "single-number-array",
+  "version": "1.0.0",
+  "description": "Export a function to get the single element inside an array",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "author": "aleff.menna.resler@gmail.com",
+  "license": "ISC"
+}
