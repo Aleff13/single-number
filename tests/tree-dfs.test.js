@@ -38,19 +38,19 @@ test("visit all nodes and execute a function in the leaves", (t) => {
         if(isLeaf(node)) leavesIds.push(node.id);
     };
 
-    se.visitLeaves(tree, callback);
+    se.traverseNodes(tree, callback);
 
     expected.every((v) => assert.equal(leavesIds.includes(v), true));
 });
 
-test("visit all node once", (t) => {
+test("visit all nodes once", (t) => {
     let times = 0
 
     const callback = (node) => {
         times = times + 1
     };
 
-    se.visitLeaves(tree, callback);
+    se.traverseNodes(tree, callback);
 
     assert.equal(times, 4)
 });
