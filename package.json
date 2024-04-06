@@ -6,6 +6,5 @@
   "scripts": {
     "test": "node --test"
   },
-  "author": "aleff.menna.resler@gmail.com",
   "license": "ISC"
 }
