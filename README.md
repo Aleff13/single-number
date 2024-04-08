@@ -2,7 +2,7 @@
 
 ## Install
 
-npm i 
+npm i single-number-array
 
 ## This module exports two functions
 
