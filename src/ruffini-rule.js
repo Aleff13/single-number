@@ -9,7 +9,7 @@ function calculateReducedCoefficients(root, coefficients) {
     const reducedCoefficients = [];
 
     coefficients.forEach((coefficient, i) => {
-        if (i + 1 > coefficients.lenght) return;
+        if (i + 1 > coefficients.length) return;
 
         if (i === 0) {
             const value = coefficient;
