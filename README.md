@@ -4,7 +4,7 @@
 
 npm i single-number-array
 
-## This module exports two functions
+## This module exports 3 functions
 
 | Function | Description | 
 |----------|----------|

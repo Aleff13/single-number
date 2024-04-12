@@ -1,6 +1,6 @@
 {
   "name": "single-number-array",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Export a function to get the single element inside an array",
   "main": "index.js",
   "scripts": {
